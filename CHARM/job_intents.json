@@ -1,0 +1,132 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Hi"],
+     "responses": ["Hi", "Fine, how can I help", "Hii watsupp", "Hola", "Hey dude", "You again"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Sayoonara", "Sure dude", "Ciao"]
+    },
+    {"tag": "time",
+     "patterns": ["what is the time now", "current time", "what time is it", "what is the time", "time"],
+     "responses": ["The Current time is"]
+    },
+    {"tag": "date",
+     "patterns": ["what is the date today", "todays date", "what date is it", "what is the date", "date"],
+     "responses": ["The date today is"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+    },
+    {"tag": "noanswer",
+     "patterns": [""],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "Can you be more specific", "I am not sure I understand"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "You are"],
+      "responses": ["I am Charm", "My name is Charm", "You can call me Charm", "I am a robot, everyone calls me charm ", "Charm is my name"]
+      },
+      {"tag": "internet_audio",
+      "patterns": [""],
+      "responses": [ "Here is what I got from web"]
+      },
+      {"tag": "home",
+        "patterns": ["where do you live", "where is your home", "you have a place to live", "where is your place", "where do you stay"],
+        "responses": ["I live in my mansion - ACROPOLIS INSTITUTE OF TECHNOLOGY AND RESEARCH"]
+        },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I am here to tell you about our Acropolis Institute", "I can detail you about Acropolis College"]
+      },
+     {"tag": "Acropolis_info",
+            "patterns": ["Acropolis", "What can you tell me about Acropolis", "Acropolis College", "What about Acropolis", "What do you know about Acropolis", "What do you know about this Institute"],
+      "responses": ["Acropolis Institute of Technology and Research (AITR) is a private engineering institution which is situated in Indore in Madhya Pradesh. It was established in the year 2005. It has a campus that is equipped with all essential requisites needed to feature a conducive learning environment. It offers an undergraduate and postgraduate degree in engineering and a master level degree in computing and management."]
+      },
+      {"tag": "Acropolis_details",
+       "patterns": ["Acropolis details", "College information", "Give me some details about Acropolis", "Give me some details about Acropolis Institute", "Acropolis Institute facts", "Details about Acropolis", "What are some details about Acropolis", "Acropolis College details", "College details"],
+       "responses": [
+         "For BTech, Diploma, BE, ME, BPharm and MPharm courses, this institution is affiliated to Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV). Also, it is affiliated to Devi Ahilya Vishwavidyalaya (DAVV) for BCA, BBA, BCom, BSc, BA, Master of Computer Application (MCA) and Master of Business Administration (MBA) courses.The institution has different admission criteria for different courses. For the candidates planning to take admission in the BE course, it is important to appear in the Online off-campus Counselling. Students seeking admission in MTech courses must have passed AICTE approved BE/ BTech or equivalent examination with a minimum of 55 per cent aggregate marks."
+       ]
+      },
+      {"tag": "CDC_details",
+        "patterns": ["CDC", "CDC details", "Give me some information about CDC", "Career Development Cell", "What is CDC", "CDC information", "Tell me about CDC"],
+        "responses": [
+          "Career Development Cell of the institution aims to prepare students to find better employment opportunities. Several activities and programmes are organised by the cell to help students refine their skills, improve their communication, prepare job applications and face personal interviews. Also, these activities give students an insight into the corporate world and its requirements. Numerous students are selected by the companies based on academic performance and skill set. Some of the recruiters that offered placements are TCS, Infosys, Persistent System, Zensar, Infogain."
+        ]
+       },
+       {"tag": "Scholarship_details",
+        "patterns": ["Scholarship", "Scholarship details", "tell about scholarship", "Give scholarship details", "Acropolis scholarship", "Acropolis scholarship details", "College scholarship details", "Scholarship information", "Scholarships in institute"],
+        "responses": [
+          "Several scholarships are offered by Acropolis Institute of Technology and Research to help students fulfil their career goals. From time to time, various scholarship schemes of Universities, Government and private institutions are offered too at the institution. The eligibility criteria to avail of these scholarships likely change over time, therefore, students are advised to stay updated with details of scholarships offered along with the criteria needed to avail them."
+        ]
+       },
+       {"tag": "Director",
+        "patterns": ["Who is director","director","director of college","director of acropolis","name of director","name of director of acropolis institute","director name"],
+        "responses": [
+          "Dr. S.C. Sharma","Dr. S.C. Sharma is the director of Acropolis Institute","The name of director of acropolis is Dr. S.C. Sharma"
+        ]
+       },
+       {"tag": "Group_Director",
+        "patterns": ["Who is group director","group director","group director of college","group director of acropolis","name of group director","name of group director of acropolis institute","group director name"],
+        "responses": [
+          "Atul Bharat","Atul Bharat is the group director of Acropolis Institute","The name of group director of acropolis is Atul Bharat"
+        ]
+       },
+       {"tag": "Vice_Chairman",
+        "patterns": ["Who is vice chairman","Vice Chairman","Vice Chairman of college","Vice Chairman of acropolis","name of Vice Chairman","name of Vice Chairman of acropolis institute","Vice Chairman name"],
+        "responses": [
+          "M.K. Dubey","M.K. Dubey is the vice chairman of Acropolis Institute","The name of vice chairman of acropolis is M.K. Dubey"
+        ]
+       },
+       {"tag": "Fee_Details",
+        "patterns": ["Acropolis Fee details", "Fee information", "Give me some details about fee", "Give me some fee details ", "Details about Fee", "What are some fee details ", "fee details", "College fee details","Erp Login","erp login","erp login details","erp link","what is erp","tell me about erp","erp details","how can I see my fee details","how can I view my fee details"],
+        "responses": [
+          "You can view your fee details from the given erp link by giving your Id and Password 'https://erp.acropolis.in/login?' "
+        ]
+       },
+       {"tag": "Cell",
+        "patterns": ["What are different cell in college","Clubs","Clubs in college","Cells in acropolis","how many clubs in college","Clubs in acropolis institute","Clubs name"],
+        "responses": [
+          "The different cells or clubs in our institution are : Cyber Security Cell, IEEE SB(EC), AITR-ACM(Association for Computer Machinery), DSAC-AITR(Data Science and Analytics Club), Acrotronics Club, GDSC AITR(Google Developer Student Clubs), Yavnika Hobby Club, Women Cell, Entrepreneurship Development Cell, Alumni Cell."
+        ]
+       },
+       {"tag": "Department",
+        "patterns": ["What are different departments in college","Departments","Departments in college","Departments in acropolis","how many departments in college","Departments in acropolis institute","Departments name","what are the branches available in college","branches in college","branches in acropolis","branches in acropolis institute","branches name","What are the different branches available in college","what are the different branches available in acropolis"],
+        "responses": [
+          "The different departments or branches in our institution are : Computer Science and Engineering (CSE), Information Technology (IT), Computer Science and Information Technology (CSIT), Civil Engineering (CE), Mechanical Engineering (ME) and Electronics and Communication (EC)."
+        ]
+       },
+       {"tag": "HOD EC",
+        "patterns": ["Who is the hod of ec departments in college","hod of ec","hod of ec department","name of hod ec","name of hod ec department ","hod ec","hod ec name","who is hod ec","who is the hod of ec branch","hod ec branch"],
+        "responses": [
+          "Dr. Udaybhanu Singh Chandravat is the Head of Department of Electronics and Communication (EC) in Acropolis Institute of Technology and Research. "
+        ]
+       },
+       {"tag": "HOD CSE",
+        "patterns": ["Who is the hod of CSE departments in college","hod of cse","hod of cse department","name of hod cse","name of hod cse department","hod cse","hod cse name","who is hod cse","who is the hod of cse branch","hod cse branch"],
+        "responses": [
+          "Dr. Kamal Kumar Sethi is the Head of Department of Computer Science Enginnering (CSE) in Acropolis Institute of Technology and Research. "
+        ]
+       },
+       {"tag": "HOD CSIT",
+        "patterns": ["Who is the hod of CSIT departments in college","hod of csit","hod of csit department","name of hod csit","name of hod csit department","hod csit","hod csit name","who is hod csit","who is the hod of csit branch","hod csit branch"],
+        "responses": [
+          "Dr. Shipla Bhalerao is the Head of Department of Computer Science and Information Technology (CSIT) in Acropolis Institute of Technology and Research. "
+        ]
+       },
+       {"tag": "Admission for Btech",
+        "patterns":["Admission in acropolis for btech","Admission for btech","Admission for Btech","Admission for B.Tech","Admission for B.Tech in acropolis","Admission for B.Tech in acropolis institute","Admission for B.Tech in acropolis institute of technology and research","Admission for B.Tech in acropolis institute of technology and research","tell me about the admission criteria for B.Tech","tell me about the admission criteria for B.Tech in acropolis","tell me about the admission criteria for B.Tech in acropolis institute","tell me about the admission criteria for B.Tech in acropolis institute of technology and research","tell me about the admission criteria "],
+        "responses": ["Candidates interested in seeking admission in 4-year full time B.Tech. course should have passed 12th or equivalent from any recognized board or university with Mathematics as compulsory subject and minimum aggregate 45% marks in PCM collectively. Candidates having JEE score cards will get the preference.Admission to the B.Tech. course is as per the guidelines laid down by the Government.For more details, please visit the link: https://aitr.ac.in/courses-procedure/"]
+       },
+       {"tag": "Admission for MBA",
+        "patterns":["Admission in acropolis for MBA","Admission for MBA","Admission for MBA","Admission for MBA","Admission for MBA in acropolis","Admission for MBA in acropolis institute","Admission for MBA in acropolis institute of technology and research","Admission for MBA in acropolis institute of technology and research","tell me about the admission criteria for MBA","tell me about the admission criteria for MBA in acropolis","tell me about the admission criteria for MBA in acropolis institute","tell me about the admission criteria for MBA in acropolis institute of technology and research","tell me about the admission criteria for MBA"],
+        "responses": ["Bachelor's Degree in any discipline of minimum 3 years duration from a recognized University with 50% marks( for General) and 45% (for reserved) categories and appeared in entrance examination- C-MAT .Admission to MBA courses is conducted through a counselling process based on C-MAT score. If seats are vacant after C-MAT based counselling process, second round of counselling based on the qualifying exam is conducted and at last college level counselling can be conducted as per the rules. Admission in MBA would be done through DTE.For more details, please visit the link: https://aitr.ac.in/courses-procedure/"]
+       },
+       {"tag": "Admission for MCA",
+        "patterns":["Admission in acropolis for MCA","Admission for MCA","Admission for MCA","Admission for MCA","Admission for MCA in acropolis","Admission for MCA in acropolis institute","Admission for MCA in acropolis institute of technology and research","Admission for MCA in acropolis institute of technology and research","tell me about the admission criteria for MBA","tell me about the admission criteria for MCA in acropolis","tell me about the admission criteria for MCA in acropolis institute","tell me about the admission criteria for MCA in acropolis institute of technology and research","tell me about the admission criteria for MCA"],
+        "responses": ["A candidate seeking admission to MCA Course should be a Graduate with at least 50% marks and 45% marks in case of SC, ST, OBC (excluding Creamy Layer) category of Madhya Pradesh in aggregate of any UGC/AICTE approved Indian University or from a foreign University recognized by Association of Indian Universities (AIU) or institute recognized by the concerned University as equivalent thereto. Recognized Bachelor's degree of minimum 3 Yrs duration with Mathematics at (10+2) level or at Graduate level.A candidate seeking admission to 5 Years Integrated MCA Course (MCA) should be Passed 10+2 examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry / Biotechnology / Biology /Technical Vocational subjects with at least 45% marks and 40% marks in case of SC, ST, OBC category of Madhya Pradesh in aggregate from any recognized board. For more details, please visit the link: https://aitr.ac.in/courses-procedure/"]}
+
+]
+}
