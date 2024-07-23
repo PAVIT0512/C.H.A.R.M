@@ -12,6 +12,9 @@ By utilizing C.H.A.R.M, colleges can overcome these challenges without relying o
 
 In essence, C.H.A.R.M serves as a sophisticated solution to streamline communication, enhance user experience, and efficiently manage data, ensuring that students receive prompt and accurate information about their college. 🎓
 
+Check out the [Video](https://drive.google.com/file/d/1gt8bP9NEITlEkUKfngceYr0-r1yExGzY/view?usp=sharing) of our project! 🎥
+
+
 ## Installation
 
 To set up C.H.A.R.M, you'll need to install the required Python packages. You can do this using the following command:
