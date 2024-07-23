@@ -12,7 +12,13 @@ By utilizing C.H.A.R.M, colleges can overcome these challenges without relying o
 
 In essence, C.H.A.R.M serves as a sophisticated solution to streamline communication, enhance user experience, and efficiently manage data, ensuring that students receive prompt and accurate information about their college. 🎓
 
-Check out the [Video](#) of my project! 🎥
+## Installation
+
+To set up C.H.A.R.M, you'll need to install the required Python packages. You can do this using the following command:
+
+```bash
+pip install playsound==1.2.2 SpeechRecognition gtts nltk wolframalpha wikipedia face_recognition opencv-python imutils python-vlc tensorflow google-generativeai
+```
 
 ## Key Features
 
